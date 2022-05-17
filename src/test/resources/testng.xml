@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name = "ReqRes" verbose = "1">
+    <test name = "ReqRes">
+        <classes>
+            <class name="tests.ReqReaDelayedResponseTest" />
+            <class name="tests.ReqReaSingleUserTest" />
+            <class name="tests.ReqResCreateTest" />
+            <class name="tests.ReqResDeleteTest" />
+            <class name="tests.ReqResListResourceTest" />
+            <class name="tests.ReqResListUsersTest" />
+            <class name="tests.ReqResLoginSuccessfulTest" />
+            <class name="tests.ReqResLoginUnsuccessfulTest" />
+            <class name="tests.ReqResRegistrationSuccessfulTest" />
+            <class name="tests.ReqResRegistrationUnsuccessfulTest" />
+            <class name="tests.ReqResSingleResourceNotFoundTest" />
+            <class name="tests.ReqResSingleResourceTest" />
+            <class name="tests.ReqResSingleUserNotFoundTest" />
+            <class name="tests.ReqResSingleUserNotFoundTest" />
+            <class name="tests.ReqResUpdatePutTest" />
+        </classes>
+    </test>
+</suite>
